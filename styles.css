@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Scope+One&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container-nav {
+    width: 100%;
+    background-color: #194E48;
+    padding: 15px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-brand {
+    font-size: 22px;
+    font-weight: bolder;
+    color: #DEE2FF;
+    border-radius: 1px;
+    margin: 8px 30px;
+    letter-spacing: 2px;
+}
+.nav-brand:hover {
+    color: #FFB4A2;
+}
+
+.nav-right a {
+    color: #DEE2FF;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 0 10px;
+    transition: 0.3s ease;
+}
+
+.nav-right a:hover {
+    color: #FFB4A2;
+}
+
+.fa-solid {
+    font-size: 30px;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    /* color: #F7F2EF; */
+    align-items: center;
+    justify-content: space-around;
+}
+
+.input-form {
+    width: 40%;
+    height: auto;
+    text-align: center;
+}
+
+.input-form form {
+    width: 100%;
+    border: 2px solid  #F2F2F3;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    margin: 25px 20px;
+    padding: 20px;
+    text-align: start;
+    box-shadow: 2px 0 2px 1px #FFB4A2;
+}
+.input-form form:hover{
+    box-shadow: 0 0 2px 1px #FFB4A2;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #264653;
+    letter-spacing: 1px;
+    text-align: center;
+    text-shadow: 2px 2px 3px #FFB4A2;
+}
+
+form .input-group {
+    margin: 26px 0;
+    position: relative;
+    width: 100%;
+}
+
+.input-group label {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    transition: 0.6s;
+}
+
+.input-group .input-field {
+    width: 100%;
+    padding: 10px 15px;
+    background: #F1F8FF;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+.input-group .input-field:hover{
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+input:focus~label,
+input:valid~label,
+textarea:focus~label,
+textarea:valid~label {
+    top: -15px;
+    font-size: 14px;
+}
+
+.buttons {
+    text-align: center;
+}
+
+form button {
+    display: inline-block;
+    margin: 0 10px auto;
+    background: #425C81;
+    color: #DEE2FF;
+    font-size: 20px;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.6s;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+form button:hover {
+    background: linear-gradient( #AEE5D0, #E0CBDC);
+    color: #194E48;
+}
+
+input[type='radio'],
+input[type='checkbox'] {
+    margin: 10px;
+    accent-color: rgb(3, 56, 100);
+}
+
+input[type='file'] {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.input-select {
+    margin: 20px 0;
+    font-size: 17px;
+}
+
+.input-select .Label {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.line {
+    width: 1.5px;
+    height: 50%;
+    background: rgb(49, 242, 6);
+}
+
+.table {
+    width: 50%;
+    height: auto;
+    text-align: center;
+    padding: 10px 20px;
+    overflow: auto;
+}
+
+.idcard{
+    padding: 10px 0px;
+}
+
+.scroll {
+    overflow-y: auto;
+    border-radius: 0px;
+    height: 40%;
+}
+
+.scroll::-webkit-scrollbar {
+    width: 100%;
+    background-color: #AEE5D0;
+    border-radius: 20px;
+    height: 50%;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+    background: transparent;
+    border: 1px solid rgb(147, 145, 145);
+    border-radius: 8px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 10px auto;
+    border-radius: 10px;
+    background-color: #F2F2F2;
+    box-shadow: 0 2px 0 0 rgb(220, 22, 22);
+}
+table:hover{
+    box-shadow: 0 0 2px 1px rgb(220, 22, 22);
+}
+
+th,
+td {
+    padding: 10px 20px;
+}
+
+th {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+td {
+    font-size: 16px;
+}
+
+/* tr:hover {
+    background: white;
+} */
+
+p {
+    font-size: 18px;
+    letter-spacing: 1.2px;
+    line-height: 1.6rem;
+}
+
+img {
+    width: 150px;
+}
+
+@media only screen and (max-width:900px) {
+    .container {
+        display: block;
+        padding: 20px 0;
+        background: transparent;
+        align-items: center;
+    }
+
+    .input-form,
+    .table {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .input-form form {
+        padding: 10px;
+        margin: 0;
+    }
+
+    .input-group .input-field {
+        font-size: 14px;
+        background: transparent;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 1px solid rgb(204, 203, 203);
+        border-radius: 0;
+    }
+
+    .line {
+        margin: 30px auto;
+        height: 2px;
+        width: 90%;
+        background: rgb(202, 0, 0);
+    }
+
+    input:focus~label,
+    input:valid~label,
+    textarea:focus~label,
+    textarea:valid~label {
+        top: -6px;
+    }
+}
+
+/* footer css */
+footer{
+    background-color: #121B28;
+    color: #fff;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+}
+
+.center-align{
+    text-align: center;
+}
+.happy{
+    color: chartreuse;
+}
+
+footer a{
+    color: #fff;
+    margin: 0 5px;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: #ccc;
+}
+
+  

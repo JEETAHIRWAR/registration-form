@@ -1,0 +1,89 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+body{
+    background-image: url("IMG.png");
+}
+</style>
+
+<body>
+    <div class="container-nav">
+        <nav>
+            <div class="nav-brand">STUDENT ENROLLMENT FORM</div>
+            <div class="nav-right">
+              <a href="#">
+                <i class="material-icons">account_circle</i>
+              </a>
+            </div>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="input-form">
+            <h1>Register Here</h1>
+            <form action="#" id="input-form">
+                <div class="input-group">
+                    <input type="text" class="input-field" id="name" required autofocus>
+                    <label for="name">Name</label>
+                </div>
+                <div class="input-group">
+                    <input type="email" class="input-field" id="email" required>
+                    <label for="email">Email</label>
+                </div>
+                <div class="input-group">
+                    <input type="number" class="input-field" id="age" required>
+                    <label for="age">Age</label>
+                </div>
+                <div class="input-group">
+                    <input type="text" class="input-field" id="addr" required>
+                    <label for="addr">Address</label>
+                </div>
+                <div class="input-select">
+                    <label for="gender" class="Label">Gender</label><br>
+                    <input type="radio" id="male" value="Male" name="gender">Male
+                    <input type="radio" id="female" value="Female" name="gender">Female
+                </div>
+                <div class="input-select">
+                    <label for="skills" class="Label">Skills</label><br>
+                    <input type="checkbox" name="skills" id="Html/Html5" value="Html/Html5">Html/Html5
+                    <input type="checkbox" name="skills" id="CSS" value="CSS">CSS
+                    <input type="checkbox" name="skills" id="JavaScript" value="JavaScript">JavaScript
+                    <input type="checkbox" name="skills" id="Python" value="Python">Python
+                    <input type="checkbox" name="skills" id="Java" value="Java">Java
+                    <input type="checkbox" name="skills" id="Ethical Hacking" value="Ethical Hacking">Ethical Hacking
+                </div>
+                <div class="buttons">
+                    <button type="button" id="add-btn">SUBMIT</button>
+                    <button type="button" id="delete-btn">CLEAR</button>
+                </div>
+            </form>
+        </div>
+        <div class="line"></div>
+        <div class="table">
+            <h1 class="idcard">Enrolled Students</h1>
+            <div class="scroll">
+                <table id="display">
+                    <tr>
+                        <th>DESCRIPTION</th>
+                        <th>PHOTO</th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div> 
+    <footer>
+      <div class="center-align">
+        <a href="#" class="happy">Happy Coding!❤️</a>
+      </div>
+    </footer>           
+    <script src="main.js"></script>
+</body>
+
+</html>
