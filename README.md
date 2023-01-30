@@ -16,7 +16,6 @@ Like my works and want to support me?
 
 ## Project Description
 
-This project is a web application built using `React.js` and `Create-React-App`. It consists of a `User card grid layout` that is displayed on the main page, along with a `navbar` that shows a `brand name`. The navbar also has a `button` labeled `"Get Users"` which makes an `API call` to an external endpoint (https://reqres.in/api/users?page=1) to retrieve data and display it on the `User card grid`. While the API call is being made, a loading message is displayed to the user. The application also uses custom `CSS/SCSS/styled-components` to style the layout and components. The footer also has `website maker name` and `Happy Coding` text in the center of the navbar.
 
 ## Requirements
 
